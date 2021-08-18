@@ -22,5 +22,6 @@ public class MoviesTest extends BaseTest{
 		moviesPage = homePage.navigateToMovies();
 		moviesPage.clickOnCommingSoon();
 		moviesPage.getLanguages();
+		System.out.println("");
 	}
 }
